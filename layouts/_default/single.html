@@ -40,5 +40,12 @@
   {{ end }}
 
   {{ partial "comments.html" . }}
+  <div id="replybox"></div>
 </div>
+<script>
+  window.replybox = {
+    site: 'X12n3kDn8w', 
+  };
+  </script>
+  <script src="https://cdn.getreplybox.com/js/embed.js"></script>
 {{ end }}
